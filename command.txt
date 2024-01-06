@@ -1,0 +1,17 @@
+ls -a # show all hidden files 
+
+
+echo "# TODO_LIST" >> README.md
+git init
+git add README.md
+git add . # to add all files to git 
+git commit -m "first commit # and date 
+git branch -M main
+git remote add origin https://github.com/Lance-Python-Dev/TODO_LIST.git
+git push -u origin main
+
+git remote add origin https://github.com/Lance-Python-Dev/TODO_LIST.git
+git branch -M main
+git push -u origin main
+
+touch .gitignore
